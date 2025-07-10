@@ -1,8 +1,11 @@
 import "./App.css";
-import { NavBar } from "./Components/Nav/NavBar";
+import { NavBar } from "./Components/Nav/NavBar.jsx";
 import { Routes, Route, Outlet } from "react-router-dom";
+import { WelcomePage } from "./Components/Welcome/WelcomePage.jsx";
+import { OrderForm } from "./Components/OrderFunctions/OrderOptions.jsx"
 
-function App() {
+
+export const App = () => {
   return <Routes>
       <Route
         path="/"
@@ -13,15 +16,11 @@ function App() {
           </>
         }
       >
-         <Route index element={<Welcome />} /> 
-        <Route path="/tickets" element={<TicketList />} />
-        <Route path="employees" element={<EmployeeList />} />
-        <Route path="customers">
-          <Route index element={<CustomerList />} />
-          <Route path=":customerId" element={<CustomerDetails />} />
-        </Route> 
+         <Route index element={<WelcomePage />} />  
+         <Route path="order" element={<OrderForm />} />
+         
       </Route>
     </Routes>
 }
 
-export default App;
+
