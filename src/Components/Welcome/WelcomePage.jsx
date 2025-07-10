@@ -1,10 +1,15 @@
-import React from "react";
 
-const Welcome = () => (
-  <div className="welcome">
-    <h1>Welcome to Shepherd's Pie!</h1>
-    <p>Start a new order or browse existing ones using the navigation above.</p>
-  </div>
-);
+export const WelcomePage = () => {
+    return (
+        <div>
+            <div className="welcome">
+            <h1><span>Welcome to</span><span>Shepards Pie</span></h1>
+            <div>Your one stop shop to get all your pizzas fixed</div>
+        </div>
 
-export default Welcome;
+
+
+
+</div>
+    )
+}
