@@ -1,24 +1,5 @@
 {
-  "pizzas": [
-    {
-      "cheeseId": 1,
-      "sauceId": 2,
-      "sizeId": 3,
-      "id": 19
-    },
-    {
-      "cheeseId": 1,
-      "sauceId": 2,
-      "sizeId": 3,
-      "id": 20
-    },
-    {
-      "cheeseId": 4,
-      "sauceId": 2,
-      "sizeId": 2,
-      "id": 21
-    }
-  ],
+  "pizzas": [],
   "cheeses": [
     {
       "id": 1,
@@ -109,7 +90,576 @@
       "cost": 1
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "pizzas": [
+        {
+          "cheeseId": 4,
+          "sauceId": 1,
+          "sizeId": 3,
+          "toppingIds": [
+            2,
+            7,
+            4
+          ]
+        },
+        {
+          "cheeseId": 5,
+          "sauceId": 1,
+          "sizeId": 2,
+          "toppingIds": [
+            7,
+            4,
+            2
+          ]
+        }
+      ],
+      "timestamp": "2025-07-11T19:29:50.749Z",
+      "id": 1
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 3,
+          "sauceId": 1,
+          "sizeId": 4,
+          "toppingIds": [
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "cheeseId": 4,
+          "sauceId": 4,
+          "sizeId": 4,
+          "toppingIds": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            1
+          ]
+        }
+      ],
+      "timestamp": "2025-07-11T19:45:53.712Z",
+      "id": 2
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 2,
+          "sauceId": 4,
+          "sizeId": 3,
+          "toppingIds": [
+            1,
+            7,
+            2,
+            8,
+            3
+          ]
+        }
+      ],
+      "timestamp": "2025-07-11T20:05:26.114Z",
+      "id": 3
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 4,
+          "sauceId": 3,
+          "sizeId": 4,
+          "toppingIds": [
+            1,
+            7,
+            2,
+            8,
+            3
+          ]
+        },
+        {
+          "cheeseId": 5,
+          "sauceId": 2,
+          "sizeId": 2,
+          "toppingIds": [
+            1,
+            7,
+            8
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "timestamp": "2025-07-11T20:13:15.354Z",
+      "id": 4
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 2,
+          "sauceId": 2,
+          "sizeId": 4,
+          "toppingIds": [
+            2,
+            7,
+            8,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 24,
+      "timestamp": "2025-07-11T20:20:13.004Z",
+      "id": 5
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 5,
+          "sauceId": 2,
+          "sizeId": 4,
+          "toppingIds": [
+            1,
+            2,
+            8,
+            3,
+            4
+          ]
+        },
+        {
+          "cheeseId": 4,
+          "sauceId": 1,
+          "sizeId": 3,
+          "toppingIds": [
+            2,
+            7,
+            8,
+            3
+          ]
+        }
+      ],
+      "orderType": "pickup",
+      "total": 34.5,
+      "timestamp": "2025-07-11T20:21:51.419Z",
+      "id": 6
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 1,
+          "sauceId": 1,
+          "sizeId": 3,
+          "toppingIds": [
+            1,
+            7,
+            2,
+            8,
+            3
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 21.5,
+      "timestamp": "2025-07-11T20:38:40.064Z",
+      "orderTakerId": 1,
+      "deliveryDriverId": 1,
+      "id": 7
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 2,
+          "sauceId": 2,
+          "sizeId": 2,
+          "toppingIds": [
+            1,
+            7,
+            2,
+            8,
+            3
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 19,
+      "timestamp": "2025-07-11T20:44:51.170Z",
+      "orderTakerId": 1,
+      "deliveryDriverId": 4,
+      "id": 8
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 5,
+          "sauceId": 3,
+          "sizeId": 3,
+          "toppingIds": [
+            1,
+            3,
+            5,
+            4,
+            6
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 20.5,
+      "timestamp": "2025-07-11T20:49:44.449Z",
+      "orderTakerId": 2,
+      "deliveryDriverId": 4,
+      "id": 9
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 3,
+          "sauceId": 3,
+          "sizeId": 2,
+          "toppingIds": [
+            1,
+            2,
+            3,
+            4,
+            8
+          ]
+        },
+        {
+          "cheeseId": 5,
+          "sauceId": 2,
+          "sizeId": 4,
+          "toppingIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "cheeseId": 5,
+          "sauceId": 4,
+          "sizeId": 3,
+          "toppingIds": [
+            2,
+            1,
+            8,
+            4
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 55.5,
+      "timestamp": "2025-07-11T21:03:55.150Z",
+      "orderTakerId": 1,
+      "deliveryDriverId": 4,
+      "id": 10
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 2,
+          "sauceId": 3,
+          "sizeId": 3,
+          "toppingIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "cheeseId": 4,
+          "sauceId": 1,
+          "sizeId": 4,
+          "toppingIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 42,
+      "timestamp": "2025-07-11T21:08:23.205Z",
+      "orderTakerId": 1,
+      "deliveryDriverId": 4,
+      "id": 11
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 4,
+          "sauceId": 2,
+          "sizeId": 4,
+          "toppingIds": [
+            1,
+            8
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 22,
+      "timestamp": "2025-07-11T21:16:13.310Z",
+      "orderTakerId": 2,
+      "deliveryDriverId": 4,
+      "id": 12
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 3,
+          "sauceId": 1,
+          "sizeId": 3,
+          "toppingIds": [
+            1,
+            2,
+            8
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 20.5,
+      "timestamp": "2025-07-11T21:16:58.470Z",
+      "orderTakerId": 1,
+      "deliveryDriverId": 4,
+      "id": 13
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 4,
+          "sauceId": 3,
+          "sizeId": 3,
+          "toppingIds": [
+            1,
+            2
+          ]
+        }
+      ],
+      "orderType": "pickup",
+      "total": 14.5,
+      "timestamp": "2025-07-11T21:22:39.021Z",
+      "orderTakerId": 2,
+      "deliveryDriverId": null,
+      "id": 14
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 2,
+          "sauceId": 3,
+          "sizeId": 3,
+          "toppingIds": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "cheeseId": 3,
+          "sauceId": 3,
+          "sizeId": 3,
+          "toppingIds": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 34,
+      "timestamp": "2025-07-11T21:25:56.464Z",
+      "orderTakerId": 2,
+      "deliveryDriverId": 4,
+      "id": 15
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 2,
+          "sauceId": 2,
+          "sizeId": 3,
+          "toppingIds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 31,
+      "tip": 10,
+      "timestamp": "2025-07-11T21:39:08.818Z",
+      "orderTakerId": 2,
+      "deliveryDriverId": 4,
+      "id": 16
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 2,
+          "sauceId": 2,
+          "sizeId": 4,
+          "toppingIds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "orderType": "pickup",
+      "total": 28.5,
+      "tip": 10,
+      "timestamp": "2025-07-11T21:42:41.431Z",
+      "orderTakerId": 2,
+      "deliveryDriverId": null,
+      "id": 17
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 2,
+          "sauceId": 3,
+          "sizeId": 3,
+          "toppingIds": [
+            2,
+            1,
+            3,
+            4
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 40.5,
+      "tip": 20,
+      "timestamp": "2025-07-11T21:46:56.468Z",
+      "orderTakerId": 2,
+      "deliveryDriverId": 4,
+      "id": 18
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 3,
+          "sauceId": 3,
+          "sizeId": 3,
+          "toppingIds": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "cheeseId": 2,
+          "sauceId": 3,
+          "sizeId": 4,
+          "toppingIds": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "cheeseId": 3,
+          "sauceId": 2,
+          "sizeId": 3,
+          "toppingIds": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "orderType": "pickup",
+      "total": 70.88,
+      "tip": 20.38,
+      "timestamp": "2025-07-11T21:48:48.567Z",
+      "orderTakerId": 4,
+      "deliveryDriverId": null,
+      "id": 19
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 5,
+          "sauceId": 4,
+          "sizeId": 2,
+          "toppingIds": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "cheeseId": 5,
+          "sauceId": 4,
+          "sizeId": 3,
+          "toppingIds": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 44,
+      "tip": 10,
+      "timestamp": "2025-07-11T21:58:05.091Z",
+      "orderTakerId": 2,
+      "deliveryDriverId": 4,
+      "id": 20
+    },
+    {
+      "pizzas": [
+        {
+          "cheeseId": 3,
+          "sauceId": 4,
+          "sizeId": 3,
+          "toppingIds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "orderType": "delivery",
+      "total": 31,
+      "tip": 10,
+      "timestamp": "2025-07-11T22:11:40.634Z",
+      "orderTakerId": 2,
+      "deliveryDriverId": 4,
+      "id": 21
+    }
+  ],
   "orderItems": [],
   "pizzaToppings": [],
   "Employees": [
