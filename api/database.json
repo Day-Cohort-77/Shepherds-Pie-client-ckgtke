@@ -19,7 +19,7 @@
       "id": 21
     }
   ],
-  "cheeseOptions": [
+  "cheeses": [
     {
       "id": 1,
       "name": "Mozzarella"
@@ -45,7 +45,7 @@
       "name": "None"
     }
   ],
-  "sauceOptions": [
+  "sauces": [
     {
       "id": 1,
       "name": "Marinara"
