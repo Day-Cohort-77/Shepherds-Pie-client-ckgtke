@@ -1,66 +1,184 @@
 {
   "pizzas": [
-   
+    {
+      "cheeseId": 1,
+      "sauceId": 2,
+      "sizeId": 3,
+      "id": 19
+    },
+    {
+      "cheeseId": 1,
+      "sauceId": 2,
+      "sizeId": 3,
+      "id": 20
+    },
+    {
+      "cheeseId": 4,
+      "sauceId": 2,
+      "sizeId": 2,
+      "id": 21
+    }
   ],
-  "cheeseOptions": [
-    { "id": 1, "name": "Mozzarella" },
-    { "id": 2, "name": "Buffalo Mozzarella" },
-    { "id": 3, "name": "Four Cheese" },
-    { "id": 4, "name": "Vegan" },
-    { "id": 5, "name": "Ricotta" },
-    { "id": 6, "name": "None" }
+  "cheeses": [
+    {
+      "id": 1,
+      "name": "Mozzarella"
+    },
+    {
+      "id": 2,
+      "name": "Buffalo Mozzarella"
+    },
+    {
+      "id": 3,
+      "name": "Four Cheese"
+    },
+    {
+      "id": 4,
+      "name": "Vegan"
+    },
+    {
+      "id": 5,
+      "name": "Ricotta"
+    },
+    {
+      "id": 6,
+      "name": "None"
+    }
   ],
-
-  "sauceOptions": [
-    { "id": 1, "name": "Marinara" },
-    { "id": 2, "name": "Arrabbiata" },
-    { "id": 3, "name": "Garlic White" },
-    { "id": 4, "name": "Diavolo" },
-    { "id": 5, "name": "None" }
+  "sauces": [
+    {
+      "id": 1,
+      "name": "Marinara"
+    },
+    {
+      "id": 2,
+      "name": "Arrabbiata"
+    },
+    {
+      "id": 3,
+      "name": "Garlic White"
+    },
+    {
+      "id": 4,
+      "name": "Diavolo"
+    },
+    {
+      "id": 5,
+      "name": "None"
+    }
   ],
-
   "toppings": [
-    { "id": 1, "name": "Sausage", "cost": 1.00 },
-    { "id": 2, "name": "Pepperoni", "cost": 1.00 },
-    { "id": 3, "name": "Mushroom", "cost": 0.50 },
-    { "id": 4, "name": "Onion", "cost": 0.50 },
-    { "id": 5, "name": "Green pepper", "cost": 0.50 },
-    { "id": 6, "name": "Black olive", "cost": 0.50 },
-    { "id": 7, "name": "Basil", "cost": 0.50 },
-    { "id": 8, "name": "Extra cheese", "cost": 1.00 }
+    {
+      "id": 1,
+      "name": "Sausage",
+      "cost": 1
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni",
+      "cost": 1
+    },
+    {
+      "id": 3,
+      "name": "Mushroom",
+      "cost": 0.5
+    },
+    {
+      "id": 4,
+      "name": "Onion",
+      "cost": 0.5
+    },
+    {
+      "id": 5,
+      "name": "Green pepper",
+      "cost": 0.5
+    },
+    {
+      "id": 6,
+      "name": "Black olive",
+      "cost": 0.5
+    },
+    {
+      "id": 7,
+      "name": "Basil",
+      "cost": 0.5
+    },
+    {
+      "id": 8,
+      "name": "Extra cheese",
+      "cost": 1
+    }
   ],
-
-  "orders": [
-    
-  ],
-
-  "orderItems": [
-    
-  ],
-
-  "pizzaToppings": [
-    
-  ],
-
+  "orders": [],
+  "orderItems": [],
+  "pizzaToppings": [],
   "Employees": [
-    { "id": 1, "name": "Alice" },
-    { "id": 2, "name": "Bob" },
-    { "id": 3, "name": "Charlie" },
-    { "id": 4, "name": "Diana" },
-    { "id": 5, "name": "Ethan" }
+    {
+      "id": 1,
+      "name": "Alice"
+    },
+    {
+      "id": 2,
+      "name": "Bob"
+    },
+    {
+      "id": 3,
+      "name": "Charlie"
+    },
+    {
+      "id": 4,
+      "name": "Diana"
+    },
+    {
+      "id": 5,
+      "name": "Ethan"
+    }
   ],
-
-  "size": [
-    { "id": 2, "name": "Small", "diameter": 10, "cost": 10.00 },
-    { "id": 3, "name": "Medium", "diameter": 14, "cost": 12.50 },
-    { "id": 4, "name": "Large", "diameter": 16, "cost": 15.00 }
+  "sizes": [
+    {
+      "id": 2,
+      "name": "Small",
+      "diameter": 10,
+      "cost": 10
+    },
+    {
+      "id": 3,
+      "name": "Medium",
+      "diameter": 14,
+      "cost": 12.5
+    },
+    {
+      "id": 4,
+      "name": "Large",
+      "diameter": 16,
+      "cost": 15
+    }
   ],
-  
   "employeesRole": [
-    { "id": 1, "employeesId": 1, "deliveryDriver": true },
-    { "id": 2, "employeesId": 2, "deliveryDriver": false },
-    { "id": 3, "employeesId": 3, "deliveryDriver": false },
-    { "id": 4, "employeesId": 4, "deliveryDriver": true },
-    { "id": 5, "employeesId": 5, "deliveryDriver": false }
+    {
+      "id": 1,
+      "employeesId": 1,
+      "deliveryDriver": true
+    },
+    {
+      "id": 2,
+      "employeesId": 2,
+      "deliveryDriver": false
+    },
+    {
+      "id": 3,
+      "employeesId": 3,
+      "deliveryDriver": false
+    },
+    {
+      "id": 4,
+      "employeesId": 4,
+      "deliveryDriver": true
+    },
+    {
+      "id": 5,
+      "employeesId": 5,
+      "deliveryDriver": false
+    }
   ]
 }
